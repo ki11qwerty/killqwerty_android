@@ -50,3 +50,9 @@ Dependency Injection (Dagger, Hilt).
 Работа с REST API (Retrofit).
 Использование Room для базы данных.
 Юнит и UI-тестирование (инструменты и подходы).
+
+
+чтож, едем по усному пока что, а потом уже продолжим -
+
+Jetpack Compose. ViewModel. Как выбрать архитектуру для Compose? [Ru, Kotlin\Android]
+https://vkvideo.ru/playlist/-113499203_33/video-113499203_456239550
