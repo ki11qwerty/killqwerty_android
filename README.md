@@ -56,3 +56,6 @@ Dependency Injection (Dagger, Hilt).
 
 Jetpack Compose. ViewModel. Как выбрать архитектуру для Compose? [Ru, Kotlin\Android]
 https://vkvideo.ru/playlist/-113499203_33/video-113499203_456239550
+
+Jetpack Compose. Основы. UI [Ru, Kotlin\Android]
+https://vkvideo.ru/playlist/-113499203_33/video-113499203_456239563?linked=1&t=29s
