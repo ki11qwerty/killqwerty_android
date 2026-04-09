@@ -62,3 +62,4 @@ https://vkvideo.ru/playlist/-113499203_33/video-113499203_456239563?linked=1&t=2
 
 Урок 1-9: Курс Android Jetpack Compose
 https://www.youtube.com/watch?v=yJoD0v00uBQ&list=PLgPRahgE-GcvdwPYg3N_hqveb_0E2anzQ&index=9
+
