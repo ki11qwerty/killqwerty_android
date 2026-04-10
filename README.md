@@ -65,4 +65,5 @@ https://www.youtube.com/watch?v=yJoD0v00uBQ&list=PLgPRahgE-GcvdwPYg3N_hqveb_0E2a
 
 9-12 курсы. нууу такое.
 пошел обратно в официал доку
+дока гугла
 
