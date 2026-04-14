@@ -16,22 +16,22 @@ fun MainNavHost(
 ) {
     NavHost(
         navController = navController,
-        startDestination = Destination.NewsScreen.route,
+        startDestination = Destination.News.route,
     ) {
 
-        composable(route = Destination.NewsScreen.route) {
+        composable(route = Destination.News.route) {
 
             NewsScreen()
 
         }
 
-        composable(route = Destination.TrainingScreen.route) {
+        composable(route = Destination.Training.route) {
 
             TrainingScreen()
 
         }
 
-        composable(route = Destination.SettingsScreen.route) {
+        composable(route = Destination.Settings.route) {
 
             SettingsScreen()
 
@@ -40,9 +40,9 @@ fun MainNavHost(
 }
 
 sealed class Destination(val route : String){
-    data object NewsScreen : Destination(NEWS)
-    data object TrainingScreen : Destination(TRAINING)
-    data object SettingsScreen : Destination(SETTINGS)
+    data object News : Destination(NEWS)
+    data object Training : Destination(TRAINING)
+    data object Settings : Destination(SETTINGS)
     companion object {
         private const val NEWS = "news"
         private const val TRAINING = "training"

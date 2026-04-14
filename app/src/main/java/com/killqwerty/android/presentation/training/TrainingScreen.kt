@@ -9,6 +9,6 @@ import androidx.compose.ui.Modifier
 @Composable
 fun TrainingScreen(){
     Scaffold() { paddingValues ->
-        Text("SettingsScreen", modifier = Modifier.padding(paddingValues))
+        Text("TrainingScreen", modifier = Modifier.padding(paddingValues))
     }
 }
