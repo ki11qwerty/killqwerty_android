@@ -48,6 +48,7 @@ import com.killqwerty.android.presentation.navigation.Destination
 import com.killqwerty.android.presentation.navigation.Destination.News
 import com.killqwerty.android.presentation.navigation.Destination.Training
 import com.killqwerty.android.presentation.navigation.MainNavHost
+import com.killqwerty.android.presentation.navigation.MainNavigationBar
 import com.killqwerty.android.presentation.news.NewsScreen
 import com.killqwerty.android.ui.theme.KillqwertyAndroidTheme
 import com.killqwerty.android.ui.theme.someTestTextColor
@@ -71,50 +72,7 @@ fun MainScreen(navHostController: NavHostController) {
     Scaffold(
         modifier = Modifier.fillMaxSize(),
         bottomBar = {
-            NavigationBar() {
-                NavigationBarItem(
-                    selected = navHostController.currentDestination?.route == News.route,
-                    icon = {
-                        Icon(
-                            imageVector = Icons.Filled.Favorite,
-                            contentDescription = "",
-                            tint = Color.Red,
-                        )
-                    },
-                    label = { Text("News") },
-                    onClick = {
-                        navHostController.navigate(Destination.News.route)
-                    }
-                )
-                NavigationBarItem(
-                    selected = navHostController.currentDestination?.route == Training.route,
-                    icon = {
-                        Icon(
-                            imageVector = Icons.Filled.AccountCircle,
-                            tint = Color.Red,
-                            contentDescription = ""
-                        )
-                    },
-                    label = { Text("Training") },
-                    onClick = {
-                        navHostController.navigate(Destination.Training.route)
-                    }
-                )
-                NavigationBarItem(
-                    selected = navHostController.currentDestination?.route == Destination.Settings.route,
-                    icon = {
-                        Icon(
-                            imageVector = Icons.Filled.Settings,
-                            tint = Color.Red,
-                            contentDescription = ""
-                        )
-                    },
-                    label = { Text("Settings") },
-                    onClick = {
-                        navHostController.navigate(Destination.Settings.route)
-                    }
-                )
-            }
+            MainNavigationBar(navHostController)
         }
     ) { paddingValues ->
         Column() {
