@@ -8,7 +8,6 @@ import androidx.compose.ui.Modifier
 
 @Composable
 fun NewsScreen(){
-
     Scaffold() { paddingValues ->
         Text("NewsScreen", modifier = Modifier.padding(paddingValues))
     }
